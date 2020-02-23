@@ -28,6 +28,9 @@ https://github.com/hyrapower/Clubhouse
   * python get-pip.py
 * ChromeDriver - https://chromedriver.chromium.org/
   * download the right version for your browser
+* XAMPP - https://www.apachefriends.org/download.html
+
+## Getting python to work
 
 To install pip, securely 1 download get-pip.py by following this link: get-pip.py. Alternatively, use curl:
 
@@ -44,7 +47,22 @@ pip install virtualenv
 
 After all of that, go into the tinderbot.py file under TinderBot and see if all of the squiggly lines are gone. If so, congrats, your deps should be satisfied
 
+## Getting PHP to work (xampp server)
+
+After you install XAMPP you have to add the php folder into the path
+
+C:\xampp\php\
+
+Then you have access to the php command inside of powershell. That way you can execute the php script using the batch file runserver.bat
+
 ### Adding things to PATH
+
+1. On the Windows desktop, right-click My Computer.
+2. In the pop-up menu, click Properties.
+3. In the System Properties window, click the Advanced tab, and then click 4 Environment Variables.
+4. In the System Variables window, highlight Path, and click Edit.
+5. In the Edit System Variables window, click insert
+6. add the folder name of the location of the exe or other item you are trying to add to the path
 
 ### How to use git
 
