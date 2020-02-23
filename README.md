@@ -1,29 +1,53 @@
 # Welcome to the clubhouse
+
 This repo is for all the random utilities we need to create.
 https://github.com/hyrapower/Clubhouse
 
 ## Current Project Manifest
+
 * TinderBot - https://www.youtube.com/watch?v=lvFAuUcowT4
 * Instagram API - Auto Alerts for new subscribers - https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
 
 ## Current Project Ideas
+
 * Small Game - C#
 * Basic Python App
 * Backup of the WinForms app
 * Powershell scripts for local
 
-# Getting Started
+## Getting Started
 
-## Programs to install to get started
+### Programs to install to get started
+
 * NodeJS - https://nodejs.org/en/download/
 * git for windows - https://gitforwindows.org/
 * VS Code - https://code.visualstudio.com/download
-* Python 3 - 
-* Python 2.7 - Part of NodeJS / Selenium
-* nuget - https://www.nuget.org/downloads
-  * https://docs.microsoft.com/en-us/nuget/reference/nuget-exe-cli-reference
+* Python 3.x - https://www.python.org/downloads/
+* Python 2.7 - Part of NodeJS / pip
+* pip - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  * python get-pip.py
+* ChromeDriver - https://chromedriver.chromium.org/
+  * download the right version for your browser
 
-## how to use git
+To install pip, securely 1 download get-pip.py by following this link: get-pip.py. Alternatively, use curl:
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+Then run the following command in the folder where you have downloaded get-pip.py:
+
+python get-pip.py
+
+after this you can use pip
+
+pip install selenium
+pip install virtualenv
+
+After all of that, go into the tinderbot.py file under TinderBot and see if all of the squiggly lines are gone. If so, congrats, your deps should be satisfied
+
+### Adding things to PATH
+
+### How to use git
+
 git is a version management system for a repository of code. It is used through the program 'git bash' for windows. Open 'git bash' and use the following commands to get to the repository
 
 * cd ~

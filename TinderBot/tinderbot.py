@@ -3,11 +3,12 @@ from time import sleep
 
 from secrets import username, password
 # this bot was created by AJ-4, original script located here
-#
+# tinderbot rquires you to run this script in version 2.7
+# please run py -2.7 tinderbot.py in the console to run this script
+# change the credentials in secrets.py in order to run the application
 class TinderBot():
     def __init__(self):
         self.driver = webdriver.Chrome()
-
     def login(self):
         self.driver.get('https://tinder.com')
 
@@ -65,4 +66,7 @@ class TinderBot():
         match_popup.click()
 
 bot = TinderBot()
-bot.login()
+try:
+    bot.login()
+except Exception:
+    print ('login failed')
