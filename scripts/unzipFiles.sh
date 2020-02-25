@@ -1,10 +1,3 @@
-#!C:/Program\ Files/Git/usr/bin/sh.exe
-
-git reset --soft HEAD
-echo
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\.git\hooks\ConvertToXML.ps1"
-git add -A
-exit
 
 [string]$location = Get-Location
 #echo $location
@@ -40,23 +33,3 @@ Remove-Item -Path $destination -Include 'ruleapp' -Force -Recurse
 
 #rename all no extension files to .xml
 Get-ChildItem -Path $destination -Filter "*." | Rename-Item -NewName { $_.Name -replace '$','.xml' }
-
-# githook to force user story script.sh
-
-RED=$(tput setaf 1)
-NORMAL=$(tput sgr0)
-GREEN=$(tput setaf 2)
-regex="#[0-9]{6}($|[^0-9])"
-file=`cat $1`
-if ! [[ $file =~ $regex ]]; then
-  echo "${RED}ERROR - Missing User Story or Bug # in commmit message starting with '#'.$NORMAL"
-  exit 1
-else
-  echo "${GREEN}MESSAGE IS GOOD.$NORMAL"
-fi
-
-exit 0
-
-
-
-
