@@ -17,7 +17,6 @@ https://github.com/hyrapower/Clubhouse
 * twitter / youtube / fb
 * website... probably
 * need stinger
-* need potato clip
 * need youtube subscriber alert
 * gif for hosting
 * name animation
@@ -25,7 +24,7 @@ https://github.com/hyrapower/Clubhouse
 
 ## Getting Started
 
-### Programs to install to get started
+### Programs to install
 
 * NodeJS - https://nodejs.org/en/download/
 * git for windows - https://gitforwindows.org/
