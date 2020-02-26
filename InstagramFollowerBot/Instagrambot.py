@@ -19,6 +19,9 @@ class InstagramBot():
 
                 followerCount = self.driver.find_element_by_xpath('/html/body/div/div/div[2]/div[1]/div[2]/span').text
                 print (followerCount)
+                f = open("followers.txt", "w")
+                f.write(followerCount)
+                f.close()
 
                 sleep(600)
                 

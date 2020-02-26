@@ -7,13 +7,21 @@ https://github.com/hyrapower/Clubhouse
 
 * TinderBot - https://www.youtube.com/watch?v=lvFAuUcowT4
 * Instagram API - Auto Alerts for new subscribers - https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
+* Powershell scripts / bash scripts
 
 ## Current Project Ideas
 
 * Small Game - C#
 * Basic Python App
 * Backup of the WinForms app
-* Powershell scripts for local
+* twitter / youtube / fb
+* website... probably
+* need stinger
+* need potato clip
+* need youtube subscriber alert
+* gif for hosting
+* name animation
+
 
 ## Getting Started
 
