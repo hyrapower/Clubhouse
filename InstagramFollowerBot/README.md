@@ -28,4 +28,4 @@ This was pretty easy. I canabalized the code from TinderBot to go grab the data 
 
 3. Display data on streamlabs OBS
 
-Now here comes the tricky bit. I have no idea how to do this. Streamlabs doesn't have an open plugin thing available for me to hook into, and they have a record of locking any file that it's currently using. Making it incredibly difficult to make it work... Ideally though, I'd be hoping that the bot that is used for streamlabs would just reference a text file that I could update and then instead of locking it, it would just read the message whenever it was used. Still a half baked idea but it's the best I got.
+You can point a source to streamlabs to display text. This text can be from a file, which we have. Current file is followers.txt
